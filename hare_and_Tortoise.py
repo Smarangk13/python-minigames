@@ -19,11 +19,6 @@ class Game:
         self.size = [1440, 400]
         self.screen = pygame.display.set_mode(self.size)
 
-        pygame.font.init()
-        self.myfont = pygame.font.SysFont('Comic Sans MS', 30)
-
-        self.textsurface = self.myfont.render('Some Text', False, (120, 120, 210))
-
         self.circle_count = 0
         self.mid = 0
         self.centers = []
